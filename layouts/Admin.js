@@ -10,7 +10,7 @@ import FooterAdmin from "components/Footers/FooterAdmin.js";
 export default function Admin({ children }) {
   return (
     <>
-      <Sidebar />
+      {/* <Sidebar /> */}
       <div className="relative md:ml-64 bg-blueGray-100">
         <AdminNavbar />
         {/* Header */}
